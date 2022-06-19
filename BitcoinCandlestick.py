@@ -1,10 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
-from plotly.offline import plot
-import matplotlib.pyplot as plt
 import datetime
 from pycoingecko import CoinGeckoAPI
-from mplfinance.original_flavor import candlestick2_ohlc
 
 # id is the name of the coin you want
 # vs_currency is the currency you want the price in
